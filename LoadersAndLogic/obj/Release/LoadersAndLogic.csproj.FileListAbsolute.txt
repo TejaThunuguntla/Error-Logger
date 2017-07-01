@@ -1,0 +1,14 @@
+D:\Syracuse University\IP\TejaFinalProject\LoadersAndLogic\bin\Release\LoadersAndLogic.dll
+D:\Syracuse University\IP\TejaFinalProject\LoadersAndLogic\bin\Release\LoadersAndLogic.pdb
+D:\Syracuse University\IP\TejaFinalProject\LoadersAndLogic\bin\Release\EntityFramework.dll
+D:\Syracuse University\IP\TejaFinalProject\LoadersAndLogic\bin\Release\ErrorLoggerModel.dll
+D:\Syracuse University\IP\TejaFinalProject\LoadersAndLogic\bin\Release\Utilities.dll
+D:\Syracuse University\IP\TejaFinalProject\LoadersAndLogic\bin\Release\ErrorLoggerModel.pdb
+D:\Syracuse University\IP\TejaFinalProject\LoadersAndLogic\bin\Release\Utilities.pdb
+D:\Syracuse University\IP\TejaFinalProject\LoadersAndLogic\bin\Release\EntityFramework.xml
+D:\Syracuse University\IP\TejaFinalProject\LoadersAndLogic\obj\Release\LoadersAndLogic.csprojResolveAssemblyReference.cache
+D:\Syracuse University\IP\TejaFinalProject\LoadersAndLogic\obj\Release\LoadersAndLogic.dll
+D:\Syracuse University\IP\TejaFinalProject\LoadersAndLogic\obj\Release\LoadersAndLogic.pdb
+D:\Syracuse University\IP\TejaFinalProject\LoadersAndLogic\bin\Release\LoadersAndLogic.dll.config
+D:\Syracuse University\IP\TejaFinalProject\LoadersAndLogic\bin\Release\EntityFramework.SqlServer.dll
+D:\Syracuse University\IP\TejaFinalProject\LoadersAndLogic\bin\Release\EntityFramework.SqlServer.xml

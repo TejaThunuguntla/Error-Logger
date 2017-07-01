@@ -1,0 +1,188 @@
+29-04-2017 13:33:35 Sequence contains no elements 
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__0[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.First[TSource](IQueryable`1 source, Expression`1 predicate)
+   at LoadersAndLogic.UserHandler.GetUsersNotByApplication(Int32 appid) in D:\Syracuse University\IP\TejaFinalProject\LoadersAndLogic\UserHandler.cs:line 108
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Exception Type: System.IndexOutOfRangeException
+Exception: Index was outside the bounds of the array.
+Exception Type: System.IndexOutOfRangeException
+Exception: Index was outside the bounds of the array.
+Exception Type: System.NotSupportedException
+Exception: The method 'Skip' is only supported for sorted input in LINQ to Entities. The method 'OrderBy' must be called before the method 'Skip'.
+Exception Type: Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+Exception: Operator '-' cannot be applied to operands of type 'System.Dynamic.DynamicObject' and 'int'
+Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'page' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewLogs(Int32, System.String)' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+Exception Type: Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+Exception: Operator '-' cannot be applied to operands of type 'System.Dynamic.DynamicObject' and 'int'
+Exception Type: Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+Exception: Operator '-' cannot be applied to operands of type 'System.Dynamic.DynamicObject' and 'int'
+Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'page' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewLogs(Int32, System.String)' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'page' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewLogs(Int32, System.String)' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'page' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewLogs(Int32, System.String)' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'page' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewLogs(Int32, System.String)' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'page' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewLogs(Int32, System.String)' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'page' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewLogs(Int32, System.String)' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'page' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewLogs(Int32, System.String)' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'page' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewLogs(Int32, System.String)' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'page' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewLogs(Int32, System.String)' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+Exception Type: System.Web.HttpException
+Exception: A public action method 'Edit' was not found on controller 'TejaFinalProject.Controllers.ManageController'.
+Exception Type: System.Web.HttpException
+Exception: A public action method 'Edit' was not found on controller 'TejaFinalProject.Controllers.ManageController'.
+Exception Type: System.Web.HttpException
+Exception: A public action method 'Edit' was not found on controller 'TejaFinalProject.Controllers.ManageController'.
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Exception Type: System.Data.Entity.Validation.DbEntityValidationException
+Exception: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+Exception Type: System.Data.Entity.Validation.DbEntityValidationException
+Exception: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Exception Type: System.Data.Entity.Validation.DbEntityValidationException
+Exception: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+Exception Type: System.Data.Entity.Validation.DbEntityValidationException
+Exception: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+Exception Type: System.Web.HttpException
+Exception: A public action method 'Edit' was not found on controller 'TejaFinalProject.Controllers.UserController'.
+Exception Type: System.Data.Entity.Validation.DbEntityValidationException
+Exception: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'status' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewApplications(Int32)' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'status' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewApplications(Int32)' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'status' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewApplications(Int32)' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'status' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewApplications(Int32)' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+Exception Type: System.InvalidOperationException
+Exception: The model item passed into the dictionary is of type 'System.Int32', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[ErrorLoggerModel.Application]'.
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Exception Type: System.Web.HttpException
+Exception: A public action method 'Edit' was not found on controller 'TejaFinalProject.Controllers.UserController'.
+Exception Type: System.InvalidOperationException
+Exception: UserId not found.
+Exception Type: System.InvalidOperationException
+Exception: UserId not found.
+Exception Type: System.Data.Entity.Validation.DbEntityValidationException
+Exception: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+Exception Type: System.Data.Entity.Validation.DbEntityValidationException
+Exception: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+30-04-2017 15:08:47 Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult About(Int32)' in 'TejaFinalProject.Controllers.HomeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+30-04-2017 15:26:21 Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'page' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewLogs(Int32, System.String)' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+30-04-2017 15:26:34 Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'page' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewLogs(Int32, System.String)' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+30-04-2017 15:27:19 Exception Type: System.Reflection.AmbiguousMatchException
+Exception: The current request for action 'ViewLogs' on controller type 'AdminController' is ambiguous between the following action methods:
+System.Web.Mvc.ActionResult ViewLogs(Int32, System.String) on type TejaFinalProject.Controllers.AdminController
+System.Web.Mvc.ActionResult ViewLogs(Int32) on type TejaFinalProject.Controllers.AdminController
+30-04-2017 15:29:36 Exception Type: System.Reflection.AmbiguousMatchException
+Exception: The current request for action 'ViewLogs' on controller type 'AdminController' is ambiguous between the following action methods:
+System.Web.Mvc.ActionResult ViewLogs(Int32, System.String) on type TejaFinalProject.Controllers.AdminController
+System.Web.Mvc.ActionResult ViewLogs(Int32) on type TejaFinalProject.Controllers.AdminController
+30-04-2017 15:30:05 Exception Type: System.Reflection.AmbiguousMatchException
+Exception: The current request for action 'ViewLogs' on controller type 'AdminController' is ambiguous between the following action methods:
+System.Web.Mvc.ActionResult ViewLogs(Int32, System.String) on type TejaFinalProject.Controllers.AdminController
+System.Web.Mvc.ActionResult ViewLogs(Int32) on type TejaFinalProject.Controllers.AdminController
+30-04-2017 15:31:04 Exception Type: System.ObjectDisposedException
+Exception: The ObjectContext instance has been disposed and can no longer be used for operations that require a connection.
+30-04-2017 15:32:36 Exception Type: System.ObjectDisposedException
+Exception: The ObjectContext instance has been disposed and can no longer be used for operations that require a connection.
+30-04-2017 15:34:17 Exception Type: System.ObjectDisposedException
+Exception: The ObjectContext instance has been disposed and can no longer be used for operations that require a connection.
+30-04-2017 15:35:34 Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+30-04-2017 15:36:54 Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+30-04-2017 15:37:15 Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'appid' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewLogs(Int32)' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+01-05-2017 12:44:57 Exception Type: System.Web.HttpCompileException
+Exception: D:\Syracuse University\IP\TejaFinalProject\TejaFinalProject\Views\Admin\ViewLogs.cshtml(52): error CS0120: An object reference is required for the non-static field, method, or property 'HttpContext.Request'
+01-05-2017 12:46:01 Exception Type: System.Web.HttpCompileException
+Exception: D:\Syracuse University\IP\TejaFinalProject\TejaFinalProject\Views\Admin\ViewLogs.cshtml(52): error CS0120: An object reference is required for the non-static field, method, or property 'HttpContext.Request'
+01-05-2017 12:49:52 Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'appid' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewLogs(Int32)' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+01-05-2017 12:50:36 Exception Type: Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+Exception: Cannot convert null to 'int' because it is a non-nullable value type
+01-05-2017 13:06:08 Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'appid' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewLogs(Int32, System.Nullable`1[System.Int32])' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+01-05-2017 13:07:34 Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'appid' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewLogs(Int32, System.Nullable`1[System.Int32])' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+01-05-2017 13:08:12 Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'appid' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewLogs(Int32, System.Nullable`1[System.Int32])' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+01-05-2017 13:59:00 Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'appid' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewLogs(Int32, System.String, System.Nullable`1[System.Int32])' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+01-05-2017 14:19:40 Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'appid' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewLogs(Int32, System.String, System.Nullable`1[System.Int32])' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+01-05-2017 15:13:34 Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'appid' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewLogs(Int32, System.String, System.Nullable`1[System.Int32])' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+01-05-2017 15:20:28 Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'status' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewUsers(Int32, System.Nullable`1[System.Int32])' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+01-05-2017 15:20:39 Exception Type: System.Web.HttpCompileException
+Exception: D:\Syracuse University\IP\TejaFinalProject\TejaFinalProject\Views\Admin\ViewUsers.cshtml(23): error CS1061: 'IPagedList<User>' does not contain a definition for 'Status' and no extension method 'Status' accepting a first argument of type 'IPagedList<User>' could be found (are you missing a using directive or an assembly reference?)
+01-05-2017 15:24:26 Exception Type: System.Web.HttpCompileException
+Exception: D:\Syracuse University\IP\TejaFinalProject\TejaFinalProject\Views\Admin\ViewUsers.cshtml(23): error CS1061: 'IPagedList<User>' does not contain a definition for 'Status' and no extension method 'Status' accepting a first argument of type 'IPagedList<User>' could be found (are you missing a using directive or an assembly reference?)
+01-05-2017 15:25:39 Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'status' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewUsers(Int32, System.Nullable`1[System.Int32])' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+01-05-2017 15:25:51 Exception Type: System.Web.HttpCompileException
+Exception: D:\Syracuse University\IP\TejaFinalProject\TejaFinalProject\Views\Admin\ViewUsers.cshtml(23): error CS1061: 'IPagedList<User>' does not contain a definition for 'Status' and no extension method 'Status' accepting a first argument of type 'IPagedList<User>' could be found (are you missing a using directive or an assembly reference?)
+01-05-2017 15:26:35 Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'status' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewUsers(Int32, System.Nullable`1[System.Int32])' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+01-05-2017 15:27:22 Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'status' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewUsers(Int32, System.Nullable`1[System.Int32])' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+01-05-2017 15:27:35 Exception Type: System.ArgumentException
+Exception: The parameters dictionary contains a null entry for parameter 'status' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult ViewUsers(Int32, System.Nullable`1[System.Int32])' in 'TejaFinalProject.Controllers.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters

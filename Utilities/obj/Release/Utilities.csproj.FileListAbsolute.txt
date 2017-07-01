@@ -1,0 +1,12 @@
+D:\Syracuse University\IP\TejaFinalProject\Utilities\bin\Release\Utilities.dll.config
+D:\Syracuse University\IP\TejaFinalProject\Utilities\bin\Release\Utilities.dll
+D:\Syracuse University\IP\TejaFinalProject\Utilities\bin\Release\Utilities.pdb
+D:\Syracuse University\IP\TejaFinalProject\Utilities\bin\Release\EntityFramework.dll
+D:\Syracuse University\IP\TejaFinalProject\Utilities\bin\Release\EntityFramework.SqlServer.dll
+D:\Syracuse University\IP\TejaFinalProject\Utilities\bin\Release\ErrorLoggerModel.dll
+D:\Syracuse University\IP\TejaFinalProject\Utilities\bin\Release\ErrorLoggerModel.pdb
+D:\Syracuse University\IP\TejaFinalProject\Utilities\bin\Release\EntityFramework.xml
+D:\Syracuse University\IP\TejaFinalProject\Utilities\bin\Release\EntityFramework.SqlServer.xml
+D:\Syracuse University\IP\TejaFinalProject\Utilities\obj\Release\Utilities.csprojResolveAssemblyReference.cache
+D:\Syracuse University\IP\TejaFinalProject\Utilities\obj\Release\Utilities.dll
+D:\Syracuse University\IP\TejaFinalProject\Utilities\obj\Release\Utilities.pdb

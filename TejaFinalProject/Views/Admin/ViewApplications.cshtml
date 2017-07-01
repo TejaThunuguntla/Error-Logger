@@ -1,0 +1,61 @@
+﻿@*@model IEnumerable<ErrorLoggerModel.Application>*@
+@model PagedList.IPagedList<ErrorLoggerModel.Application>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Applications";
+}
+
+<br />
+<br />
+<div style="margin-left:auto;margin-right:auto">
+<div class="mytitle" >
+    View Applications
+</div></div>
+
+@if(TempData["AddApp"] != null)
+{
+    <p style="color:forestgreen"> New Application <b> @TempData["AddApp"] </b> created </p>
+}
+<br />
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink("Application", "ViewApplications", new { status = ViewBag.Status, sortOrder = ViewBag.AppSort, page = ViewBag.currentpage })
+            @*@Html.DisplayNameFor(model => model.AppName)*@
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    if (item.Enabled)
+    {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.AppName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "EditApplication", "Admin", new { appid = item.AppId }, null) |
+            @Html.ActionLink("Logs", "ViewLogs", "Admin", new { appid = item.AppId, sortOrder = "" }, null) |
+            @Html.ActionLink("Delete Users", "RemoveUser", "Admin", new { appid = item.AppId }, null) |
+            @Html.ActionLink("Add Users", "AddUser", "Admin", new { appid = item.AppId }, null) |
+            @Html.ActionLink("Disable", "Disable", "Admin", new { appid = item.AppId }, null)
+        </td>
+    </tr>
+    }
+    else {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppName)
+            </td>
+            <td>
+                @Html.ActionLink("Enable", "Disable", "Admin", new { appid = item.AppId }, null)
+            </td>
+        </tr>
+    }
+}
+
+</table>
+            Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+            @Html.PagedListPager(Model, page => Url.Action("ViewApplications",
+                                    new { page }))

@@ -1,0 +1,12 @@
+D:\Syracuse University\IP\TejaFinalProject\TestClient\bin\Debug\TestClient.exe.config
+D:\Syracuse University\IP\TejaFinalProject\TestClient\bin\Debug\TestClient.exe
+D:\Syracuse University\IP\TejaFinalProject\TestClient\bin\Debug\TestClient.pdb
+D:\Syracuse University\IP\TejaFinalProject\TestClient\bin\Debug\dllLib.dll
+D:\Syracuse University\IP\TejaFinalProject\TestClient\bin\Debug\Utilities.dll
+D:\Syracuse University\IP\TejaFinalProject\TestClient\bin\Debug\Newtonsoft.Json.dll
+D:\Syracuse University\IP\TejaFinalProject\TestClient\bin\Debug\dllLib.pdb
+D:\Syracuse University\IP\TejaFinalProject\TestClient\bin\Debug\Utilities.pdb
+D:\Syracuse University\IP\TejaFinalProject\TestClient\bin\Debug\Newtonsoft.Json.xml
+D:\Syracuse University\IP\TejaFinalProject\TestClient\obj\Debug\TestClient.csprojResolveAssemblyReference.cache
+D:\Syracuse University\IP\TejaFinalProject\TestClient\obj\Debug\TestClient.exe
+D:\Syracuse University\IP\TejaFinalProject\TestClient\obj\Debug\TestClient.pdb

@@ -1,0 +1,20 @@
+05-05-2017 21:06:01 Exception Type: System.Web.HttpException
+Exception: The controller for path '/Er' was not found or does not implement IController.
+06-05-2017 11:05:40 Exception Type: System.InvalidOperationException
+Exception: The view 'Create' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Account/Create.aspx
+~/Views/Account/Create.ascx
+~/Views/Shared/Create.aspx
+~/Views/Shared/Create.ascx
+~/Views/Account/User.master
+~/Views/Shared/User.master
+~/Views/Account/Create.cshtml
+~/Views/Account/Create.vbhtml
+~/Views/Shared/Create.cshtml
+~/Views/Shared/Create.vbhtml
+~/Views/Account/User.cshtml
+~/Views/Account/User.vbhtml
+~/Views/Shared/User.cshtml
+~/Views/Shared/User.vbhtml
+06-05-2017 11:11:10 Exception Type: System.Web.HttpException
+Exception: A public action method 'Create' was not found on controller 'TejaFinalProject.Controllers.AccountController'.

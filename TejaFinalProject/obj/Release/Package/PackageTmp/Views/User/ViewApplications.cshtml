@@ -1,0 +1,40 @@
+﻿@model PagedList.IPagedList<ErrorLoggerModel.Application>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "ViewApplications";
+}
+
+<br />
+<br />
+<div style="margin-left:auto;margin-right:auto">
+    <div class="mytitle">
+        View Applications
+    </div>
+</div>
+<br />
+
+<table class="table" style="max-width:60%;">
+    <tr>
+        <th>
+            @Html.ActionLink("Application", "ViewApplications", new { sortOrder = ViewBag.AppSort, page = ViewBag.currentpage })
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.AppName)
+        </td>
+        <td>
+            @Html.ActionLink("Logs", "ViewLogs", "User", new { appid = item.AppId, sortOrder = "" }, null)
+        </td>
+    </tr>
+}
+
+</table>
+
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("ViewApplications",
+                                    new { page }))

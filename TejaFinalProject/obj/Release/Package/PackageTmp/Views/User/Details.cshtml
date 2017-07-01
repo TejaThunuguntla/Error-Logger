@@ -1,0 +1,49 @@
+﻿@model ErrorLoggerModel.Log
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<br />
+<br />
+<div style="margin-left:auto;margin-right:auto">
+    <div class="mytitle">
+        Log Details
+    </div>
+</div>
+<br />
+
+<div>
+    <dl style="border:dashed;padding:20px" class="dl-horizontal">
+        <dt style="font-weight:bold;font-size:large;margin:10px;">
+         @*   @Html.DisplayName("Log Type")*@
+            Log Type 
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.type)
+        </dd>
+
+        <dt style="font-weight:bold;font-size:large;margin:10px;">
+          @*  @Html.DisplayNameFor(model => model.timestamp)*@
+            Time
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.timestamp)
+        </dd>
+
+        <dt style="font-weight:bold;font-size:large;margin:10px;">
+           @* @Html.DisplayNameFor(model => model.description)*@
+            Description
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.description)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "ViewApplications")
+</p>

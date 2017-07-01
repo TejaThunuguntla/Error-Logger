@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My Error Logger</title>
+    @Styles.Render("~/Content/mystyle.css")
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")  
+</head>
+<body>
+    <div>
+        <div class="titl">
+            @*   <div class="navbar-header">
+                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                   </button>
+                 @Html.ActionLink("My Error Logger", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                         </div>
+                @Html.ActionLink("My Error Logger", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })  *@
+            <p style="margin-left:50px;" class="titlcenter"> My Error Logger</p>
+        </div>
+        <div class="menu">
+            <ul id="nav">
+                @*<li style="float:left" class="menuselect">@Html.ActionLink("Home", "Index", "Home")</li>
+                <li style="float:left" class="menuselect">@Html.ActionLink("Admin", "Index", "Admin")</li>
+                <li style="float:left" class="menuselect">@Html.ActionLink("User", "ViewApplications", "User")</li>*@
+                @{
+                    if (String.IsNullOrWhiteSpace(LoadersAndLogic.UserHandler.GetName(User.Identity.Name)))
+                    {
+                        <li style="float:left" class="menuselect">Home</li>
+                        @*<li style="float:left" class="menuselect">Admin</li>
+                        <li style="float:left" class="menuselect">User</li>*@
+                    }
+                    else
+                    {
+                        <li style="float:left" class="menuselect">@Html.ActionLink("Home", "Index", "Home")</li>
+                                    {
+                                        var uname = User.Identity.Name;
+                                        if(LoadersAndLogic.UserHandler.IsAdmin(uname))
+                                        {
+                                <li style="float:left" class="menuselect">@Html.ActionLink("Admin", "Index", "Admin")</li>
+                            }
+                            else
+                            {
+                                <li style="float:left" class="menuselect">@Html.ActionLink("User", "ViewApplications", "User")</li>
+                            }
+                        }
+                    }
+                }
+                @*@{
+                    var uname = User.Identity.Name;
+                   // var roles = Roles.GetRolesForUser(User.Identity.Name);
+                    if (LoadersAndLogic.UserHandler.IsAdmin(uname))
+                    {
+                        <li style="float:left" class="menuselect">@Html.ActionLink("Admin", "Index", "Admin")</li>
+                    }
+                    else
+                    {
+                        <li style="float:left" class="menuselect">@Html.ActionLink("User", "Index", "User")</li>
+                    }
+                }*@
+            </ul>
+            @Html.Partial("_LoginPartial")
+        </div>
+
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+    <div class="ftr">
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Teja Thunuguntla</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

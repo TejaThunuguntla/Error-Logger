@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<br />
+<br />
+<div class="jumbotron">
+
+
+
+    <table class="table" style="margin-left:auto; margin-right:auto; max-width:70%">
+        <tr>
+            <td style="text-align:center">
+                <fieldset>
+                    <legend><b> Applications </b></legend>
+                    @Html.ActionLink("Create New", "AddApplication")
+                    <br /> <br />
+                    @Html.ActionLink("Active Applications", "ViewApplications", "Admin", new { status = 1 }, null)
+                    <br /> <br />
+                    @Html.ActionLink("Disabled Applications", "ViewApplications", "Admin", new { status = 0 }, null)
+                    <br /> <br />
+                </fieldset>
+            </td>
+            <td style="text-align:center">
+                <fieldset>
+                    <legend><b> Users </b></legend>
+                    @Html.ActionLink("Active Users", "ViewUsers", "Admin", new { status = 1 }, null)
+                    <br /> <br />
+                    @Html.ActionLink("Inactive Users", "ViewUsers", "Admin", new { status = 0 }, null)
+                    <br /> <br />
+                </fieldset>
+            </td>
+        </tr>
+    </table>
+
+
+
+
+    <br />
+</div>

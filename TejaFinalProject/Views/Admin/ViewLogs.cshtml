@@ -1,0 +1,91 @@
+﻿@*@model IEnumerable<ErrorLoggerModel.Log>*@
+@model PagedList.IPagedList<ErrorLoggerModel.Log>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "ViewLogs";
+}
+
+<br />
+<br />
+<div style="margin-left:auto;margin-right:auto">
+    <div class="mytitle">
+        @ViewBag.appname
+    </div>
+</div>
+<br />
+@if (Model.Count == 0)
+{
+        <h3> No logs </h3>   
+}
+else
+{
+    using (Html.BeginForm("ViewLogs", "Admin", FormMethod.Get))
+    {
+        <p>
+            @Html.TextBox("appid", (int)ViewBag.application, new { style = "display:none" })
+            Find by Description: @Html.TextBox("searchString", ViewBag.CurrentFilter as string)
+            <input type="submit" value="Search" />
+        </p>
+    }
+    <table style="width:100%">
+        <tr>
+            <td style="width:60%">
+                <table class="table" id="tb1">
+                    <tr>
+                        <th>
+                            @Html.ActionLink("Time", "ViewLogs", new { appid = ViewBag.application, sortOrder = ViewBag.DateSort, currentFilter = ViewBag.CurrentFilter, page = ViewBag.currentpage })
+                            @*<button type="button" id="bt1" name="bt1" onclick="sortTable(this, 2, 1)">SortThis</button>*@
+                        </th>
+                        <th>
+                            @Html.ActionLink("Type", "ViewLogs", new { appid = ViewBag.application, sortOrder = ViewBag.TypeSort, currentFilter = ViewBag.CurrentFilter, page = ViewBag.currentpage })
+                        </th>
+                        <th style="width:50%;white-space:nowrap">
+                            Description
+                        </th>
+                        <th>
+                            @Html.ActionLink("Exception", "ViewLogs", new { appid = ViewBag.application, sortOrder = ViewBag.ExpSort, currentFilter = ViewBag.CurrentFilter, page = ViewBag.currentpage })
+                        </th>
+                        @*<th>
+                                Application
+                            </th>*@
+                        @*   <th></th>*@
+                    </tr>
+
+                    @{int y = 0;
+                        foreach (var item in Model)
+                        {
+                            y++;
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.timestamp)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.type)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.description)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.exception)
+                                </td>
+                                @*<td>
+                                        @Html.DisplayFor(modelItem => item.App.AppName)
+                                    </td>*@
+                                @*<td>
+                                        @Html.ActionLink("Details", "Details", new { id = item.LogId })
+                                    </td>*@
+                            </tr>
+                        }
+                    }
+                </table>
+                Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+                @Html.PagedListPager(Model, page => Url.Action("ViewLogs",
+                             new { appid = ViewBag.application, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter as string, page }))
+            </td>
+            <td style="width:40%;align-content:center">
+                <img src="@Url.Action("DispChart", "Admin" )" alt="Chart" />
+            </td>
+        </tr>
+    </table>
+                        }

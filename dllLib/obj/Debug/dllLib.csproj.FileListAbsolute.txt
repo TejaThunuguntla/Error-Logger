@@ -1,0 +1,13 @@
+D:\Syracuse University\IP\TejaFinalProject\dllLib\bin\Debug\dllLib.dll
+D:\Syracuse University\IP\TejaFinalProject\dllLib\bin\Debug\dllLib.pdb
+D:\Syracuse University\IP\TejaFinalProject\dllLib\bin\Debug\ErrorLoggerModel.dll
+D:\Syracuse University\IP\TejaFinalProject\dllLib\bin\Debug\Newtonsoft.Json.dll
+D:\Syracuse University\IP\TejaFinalProject\dllLib\bin\Debug\Utilities.dll
+D:\Syracuse University\IP\TejaFinalProject\dllLib\bin\Debug\EntityFramework.dll
+D:\Syracuse University\IP\TejaFinalProject\dllLib\bin\Debug\ErrorLoggerModel.pdb
+D:\Syracuse University\IP\TejaFinalProject\dllLib\bin\Debug\Utilities.pdb
+D:\Syracuse University\IP\TejaFinalProject\dllLib\bin\Debug\Newtonsoft.Json.xml
+D:\Syracuse University\IP\TejaFinalProject\dllLib\bin\Debug\EntityFramework.xml
+D:\Syracuse University\IP\TejaFinalProject\dllLib\obj\Debug\dllLib.csprojResolveAssemblyReference.cache
+D:\Syracuse University\IP\TejaFinalProject\dllLib\obj\Debug\dllLib.dll
+D:\Syracuse University\IP\TejaFinalProject\dllLib\obj\Debug\dllLib.pdb
